@@ -93,7 +93,7 @@ clean_cmd_line(){
     #done
 
     #. dirty way
-    send_ctrl_key 'iamjustaspam'
+    send_command 'iamjustaspam'
 }
 
 session_exist(){
