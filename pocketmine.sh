@@ -83,10 +83,17 @@ send_ctrl_key(){
 }
 
 clean_cmd_line(){
-    send_ctrl_key 'C-e' #. move to end of line (END)
-    for (( i = 0; i < 50; i++ )); do
-        send_ctrl_key 'C-h' #. clean the command line (BACKSPACE)
-    done
+    #. PMMP can't handle ctrl/meta/up/down/left/right keys current,
+    #. need a solution to clear the command line.  
+
+    #. right way
+    #send_ctrl_key 'C-e' #. move to end of line (END)
+    #for (( i = 0; i < 50; i++ )); do
+    #    send_ctrl_key 'C-h' #. clean the command line (BACKSPACE)
+    #done
+
+    #. dirty way
+    send_ctrl_key 'iamjustaspam'
 }
 
 session_exist(){
