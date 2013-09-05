@@ -184,6 +184,14 @@ strip_color(){
 }
 
 usage(){
+    echo '
+  ____            _        _   __  __ _            
+ |  _ \ ___   ___| | _____| |_|  \/  (_)_ __   ___ 
+ | |_) / _ \ / __| |/ / _ \ __| |\/| | | `_ \ / _ \
+ |  __/ (_) | (__|   <  __/ |_| |  | | | | | |  __/
+ |_|   \___/ \___|_|\_\___|\__|_|  |_|_|_| |_|\___|_Ctrl
+
+    '
     echo -e "Usage: $(basename $0) [CMD]\n"
     echo -e "Available CMDs:"
     echo -e "  start\t\t\tStart PocketMine server."
