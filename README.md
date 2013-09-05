@@ -65,6 +65,7 @@ Add settings to `/etc/crontab` like below.
 ```
 
 ## TODO
+ - Solution to clear the command in the console.
  - Bootstrap.
  - Configuration file.
  - Updater.
@@ -73,6 +74,12 @@ Add settings to `/etc/crontab` like below.
 ## FAQ
 ### How to I detach the console? ###
 Press `Ctrl+a`, then press `d`.
+### Why do I see a lot of 'iamjustaspam' in the console.log? ###
+I need to clear the console input while use the 'cmd' function, but PocketMine
+can't handle the `Ctrl+b`,`Ctrl+e` or `UP`/`Down`/`LEFT`/`RIGHT` keys, so sending
+a spam instead, I will try to find out the solution.
+### I can't understand what you say! ###
+Because the English is't my native language, sorry :(
 
 ## Author
 Timothy.Lee a.k.a MarlboroMoo.
