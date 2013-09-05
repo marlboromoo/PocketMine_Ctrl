@@ -70,6 +70,10 @@ Add settings to `/etc/crontab` like below.
  - Updater.
  - You tell me.
 
+## FAQ
+*** How to I detach the console? ***
+Press `Ctrl+a`, then press `d`.
+
 ## Author
 Timothy.Lee a.k.a MarlboroMoo.
 
