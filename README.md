@@ -27,8 +27,8 @@ cd ~/pocketmine
 curl -L -O http://sourceforge.net/projects/pocketmine/files/linux/PocketMine-MP_Installer_Alpha_1.3.9.sh | bash
 #. install PocketMine Ctrl
 cd ~
-git clone https://github.com/marlboromoo/pocketmine_ctrl.git
-ln -s ~/pocketmine_ctrl/pocketmine.sh ~/pocketmine
+git clone https://github.com/marlboromoo/PocketMine_Ctrl.git
+ln -s ~/PocketMine_Ctrl/pocketmine.sh ~/pocketmine/
 ~/pocketmine/pocketmine.sh
 ```
 
