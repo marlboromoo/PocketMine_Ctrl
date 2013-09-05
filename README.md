@@ -72,7 +72,7 @@ Add settings to `/etc/crontab` like below.
  - You tell me.
 
 ## FAQ
-### How to I detach the console? ###
+### How do I detach the console? ###
 Press `Ctrl+a`, then press `d`.
 ### Why do I see a lot of 'iamjustaspam' in the console.log? ###
 I need to clear the console input while use the 'cmd' function, but PocketMine
