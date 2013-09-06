@@ -1,5 +1,5 @@
 # PocketMine_Ctrl
-Script to manage PocketMine server on linux.
+Script to manage [PocketMine] [1] server on linux.
 ```
  ____            _        _   __  __ _            
 |  _ \ ___   ___| | _____| |_|  \/  (_)_ __   ___ 
@@ -73,10 +73,12 @@ Add settings to `/etc/crontab` like below.
 ## FAQ
 ### How do I detach the console? ###
 Press `Ctrl+a`, then press `d`.
+
 ### Why do I see a lot of 'iamjustaspam' in the console.log? ###
 I need to clear the console input while use the 'cmd' function, but PocketMine
-can't handle the `Ctrl+b`,`Ctrl+e` or `UP`/`Down`/`LEFT`/`RIGHT` keys, so sending
-a spam instead, I will try to find out the solution.
+can't handle the `Ctrl+b`,`Ctrl+e` or `UP`/`Down`/`LEFT`/`RIGHT` keys 
+[right now] [5], so sending a spam instead, it will be fixed in the future.
+
 ### I can't understand what you say! ###
 Because the English is't my native language, sorry :(
 
@@ -86,7 +88,9 @@ Timothy.Lee a.k.a MarlboroMoo.
 ## License
 Released under the [MIT License] [3].
 
-  [1]: http://tiswww.case.edu/php/chet/bash/bashtop.html "BASH"
-  [2]: http://tmux.sourceforge.net/ "tmux"
-  [3]: http://opensource.org/licenses/MIT   "MIT License"
+  [1]: http://www.pocketmine.net/ "PocketMine"
+  [2]: http://tiswww.case.edu/php/chet/bash/bashtop.html "BASH"
+  [3]: http://tmux.sourceforge.net/ "tmux"
+  [4]: http://opensource.org/licenses/MIT   "MIT License"
+  [5]: https://github.com/PocketMine/PocketMine-MP/issues/773 "issue"
 
