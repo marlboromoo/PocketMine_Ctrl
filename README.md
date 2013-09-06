@@ -39,18 +39,17 @@ Control script for PocketMine server.
 Usage: pocketmine.sh [CMD]
 
 Available CMDs:
-  start			Start PocketMine server.
-  attach		Attach PocketMine server console.
-  console		Alias for attach.
-  stop			Stop PocketMine server. (graceful)
-  restart		Restart PocketMine server. (graceful)
-  kill			Kill the PocketMine server.
-  cmd "MY COMMAND"	Send command to PocketMine server.
-  plainlog "LOGFILE"	Strip color code from log file.
-  log-rotate		Log rotate.
-  remake-world		Regenerate worlds and keep old worlds. (need restart)
-  purge-world		Regenerate worlds. (need restart)
-
+  start                 Start PocketMine server.
+  attach                Attach PocketMine server console.
+  console               Alias for attach.
+  stop                  Stop PocketMine server. (graceful)
+  restart               Restart PocketMine server. (graceful)
+  kill                  Kill the PocketMine server.
+  cmd "MY COMMAND"      Send command to PocketMine server.
+  plainlog "LOGFILE"    Strip color code from log file.
+  log-rotate            Log rotate.
+  remake-world          Regenerate worlds and keep old worlds. (need restart)
+  purge-world           Regenerate worlds. (need restart)
 ```
 
 ## Daily Jobs
