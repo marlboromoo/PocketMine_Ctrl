@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PHP='./bin/php'
-PHP_OPTS='-d enable_dl=On'
+PHP_OPTS='-d enable_dl=On -d date.timezone=Asia/Taipei'
 PMMP='PocketMine-MP.php'
 WORLD_WORLD='world'
 WORLDS="$WORLD_WORLD"
