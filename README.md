@@ -19,7 +19,7 @@ Script to manage [PocketMine] [1] server on linux.
  - [tmux] [2]
 
 ## Install with PocketMine
-```
+```bash
 su - pocketmine
 #. install PocketMine-MP
 mkdir -p ~/pocketmine
@@ -37,7 +37,7 @@ ln -s ~/PocketMine_Ctrl/pocketmine.sh ~/pocketmine/
 ```
 
 ## Update
-```
+```bash
 su - pocketmine
 cd  ~/PocketMine_Ctrl/
 git pull
