@@ -18,8 +18,8 @@ CMDS_BEFORE_STOP=''
 check_has_php(){
     #. The PHP binary installed by PocketMine-MP_Installer.
     if [[ -f ./php5/bin/php ]]; then
-        mkdir -m 0777 bin/
-        mv ./php5/bin/php ./bin/php
+        mkdir -p -m 0777 bin/
+        mv -f ./php5/bin/php ./bin/php
         #rm -rf ./php5/
     fi
     #. do my stuff
