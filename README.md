@@ -60,7 +60,7 @@ Add settings to `/etc/crontab` like below.
 51 0	* * *   pocketmine /home/pocketmine/pocketmine/pocketmine.sh cmd "say Server will restart in 10 minute."
 56 0	* * *   pocketmine /home/pocketmine/pocketmine/pocketmine.sh cmd "say Server will restart in 5 minute."
 0  1	* * *   pocketmine /home/pocketmine/pocketmine/pocketmine.sh cmd "say Server will restart in 1 minute."
-#1  1	* * *   pocketmine /home/pocketmine/pocketmine/pocketmine.sh restart
+1  1	* * *   pocketmine /home/pocketmine/pocketmine/pocketmine.sh restart
 ```
 
 ## TODO
@@ -86,7 +86,7 @@ Because the English is't my native language, sorry :(
 Timothy.Lee a.k.a MarlboroMoo.
 
 ## License
-Released under the [MIT License] [3].
+Released under the [MIT License] [4].
 
   [1]: http://www.pocketmine.net/ "PocketMine"
   [2]: http://tiswww.case.edu/php/chet/bash/bashtop.html "BASH"
