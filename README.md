@@ -24,7 +24,11 @@ su - pocketmine
 #. install PocketMine-MP
 mkdir -p ~/pocketmine
 cd ~/pocketmine
-curl -L -O http://sourceforge.net/projects/pocketmine/files/linux/PocketMine-MP_Installer_Alpha_1.3.9.sh | bash
+pmmp_version=$(curl -s \
+https://api.github.com/repos/PocketMine/PocketMine-MP/tags?callback=loadTags |\
+grep -i name | head -n1 | cut -d':' -f2 |\
+sed -e 's/"//g' -e 's/,$//g' -e 's/^ //g')
+curl -L http://sourceforge.net/projects/pocketmine/files/linux/PocketMine-MP_Installer_$pmmp_version.sh | bash
 #. install PocketMine Ctrl
 cd ~
 git clone https://github.com/marlboromoo/PocketMine_Ctrl.git
