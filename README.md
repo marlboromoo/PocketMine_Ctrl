@@ -32,6 +32,16 @@ ln -s ~/PocketMine_Ctrl/pocketmine.sh ~/pocketmine/
 ~/pocketmine/pocketmine.sh
 ```
 
+## Update
+```
+su - pocketmine
+cd  ~/PocketMine_Ctrl/
+git pull
+```
+
+## Config
+TODO.
+
 ## Usage
 Control script for PocketMine server.
 ```
