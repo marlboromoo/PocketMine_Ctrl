@@ -44,7 +44,7 @@ git pull
 ```
 
 ## Config
-TODO.
+TODO..
 
 ## Usage
 Control script for PocketMine server.
@@ -85,15 +85,15 @@ Add settings to `/etc/crontab` like below.
  - You tell me.
 
 ## FAQ
-### How do I detach the console? ###
+### How do I detach the console?
 Press `Ctrl+a`, then press `d`.
 
-### Why do I see a lot of 'iamjustaspam' in the console.log? ###
+### Why do I see lots of "iamjustaspam" in the console or "Command doesn't exist!" in the console.log?
 I need to clear the console input while use the 'cmd' function, but PocketMine
 can't handle the `Ctrl+b`,`Ctrl+e` or `UP`/`Down`/`LEFT`/`RIGHT` keys 
 [right now] [5], so sending a spam instead, it will be fixed in the future.
 
-### I can't understand what you say! ###
+### I can't understand what you say!
 Because the English is't my native language, sorry :(
 
 ## Author
