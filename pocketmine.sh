@@ -15,6 +15,25 @@ PREFIX='C-a'
 CMDS_BEFORE_STOP=''
 
 #= functions ==================================================================
+check_has_php(){
+    #. The PHP binary installed by PocketMine-MP_Installer.
+    if [[ -f ./php5/bin/php ]]; then
+        mkdir -m 0777 bin/
+        mv ./php5/bin/php ./bin/php
+        #rm -rf ./php5/
+    fi
+    #. do my stuff
+    if [[ -f ./bin/php ]]; then
+        PHP='./bin/php'
+    elif [[ -f $PHP ]]; then
+        PHP=$PHP
+    else
+        echo 'Install the PHP first!!'
+        echo 'See: https://github.com/PocketMine/PocketMine-MP/wiki/Setting-up-a-Server#wiki-linux'
+        exit 0
+    fi
+}
+
 check_has_tmux(){
     if [[ -z $(which tmux) ]]; then
         "Install the tmux first!!"
@@ -209,6 +228,7 @@ usage(){
 
 #= main program ===============================================================
 cd $(dirname $0)
+check_has_php
 check_has_tmux
 case $1 in
     start)
